@@ -296,8 +296,8 @@ Tank.prototype.isHited = function () {
                         {name:DIV,id:ANNEX,className:ANNEX+FLICKER},
                         randomX,
                         randomY,
-                        ANNEX_BGPOS[HAT_TYPE],
-                        ANNEX_TYPE[HAT_TYPE],
+                        ANNEX_BGPOS[type],
+                        ANNEX_TYPE[type],
                         this.game
                     );
 

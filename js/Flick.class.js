@@ -85,7 +85,7 @@ Flick.prototype.move = function () {
  */
 Flick.prototype.createEnemyTank = function (oParent, x, y, id) {
 
-    var flicker = FLICKER;//Math.random()<0.25 ?FLICKER:'';
+    var flicker = Math.random()<0.25 ?FLICKER:'';
 
     var tank = null;
     switch (id) {
